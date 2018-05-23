@@ -13,7 +13,7 @@ My first idea was actually to simply remove the native GUI buttons and use scree
 ##### Second and last attempt
 My last and second idea as well as the one where I lost motivation was to create a lot of windows where only the body could be seen and used as pixels. The moment I thought it would work out, I was thinking that everything would be great and I had almost reached my goal. However, I was wrong. The fact of creating 500 x 500 pixel windows alone, which in total would have been 250000 pixels, should have made me think it over. Unfortunately, this moment came rather late, but I learned from it. So I worked on my idea and implemented it. At some point I had noticed that when I create a lot of windows, even if they are very small, everything starts to jerk. After miserable attempts to eliminate this I gave up my great project.
 
-##### Lektion
+##### Lesson
 What have I learned from this?
 So first of course to research more thoroughly and also to think more about the possible result, both I have done only quite roughly. I also learned a lot about python and experimented a lot.
 
