@@ -21,9 +21,58 @@ So first of course to research more thoroughly and also to think more about the 
 Unfortunately I only have my second idea in code form and therefore I have only added this idea to this repository.
 Nevertheless it doesn't work properly I want to explain how the script `CustomRoot.py` actually works.
 
-###### Setup
+##### Setup
 1. Make sure you have python 3.x installed
-2. Download the script CustomRoot.py
+2. Download the script [CustomRoot.py](https://raw.githubusercontent.com/toorusr/customwindow/master/CustomRoot.py)
 
-###### To something with it
-(I am currently editing this part)
+##### Do something with it
+Now here are two options
+1. Figure it out by your self
+2. Follow my constructions
+
+```python
+if persons_selection == 1:
+    person.figureOut("CustomRoot.py")
+elif persons_selection == 2:
+    person.readAlong("README.md")
+else:
+    print("Why are you even doing this to your self?")
+```
+##### Trying to explain my own code
+There is one function and one class that contains even more funtions.
+The first function does what it is named like. The `center()` functions **should** center the window in the middle of the screen.
+The class `CustomRoot` is pretty much the heart of the script and creates the CustomRoot.
+Well, okay, to this point you should have kept up with me.
+Now we will figure out together, because I don't actually remember at this point how the script works, how we can get something like a window out of this.
+
+To do so we have my beautiful code and some comments. *Okay, I just have realised that I have not written any comments.*
+
+At first to start the script we open up a terminal and type
+```bash
+python3 CustomRoot.py
+```
+My terminal just spit out `x1` and is now stuck in a loop.
+The script created a window named `tk` with two buttons named `x++` and `y++`.
+When I press them nothing happens, I think I wanted them to interact with the shape that has been generated.
+Under the obscure window I found this shape out of ca. 900 pixels or how I called them in my code: 'winxels', what maybe win(dow pi)xel.
+
+It seems like we can just inject pseudocode into the `root.shape()` function in line 120 after we created the root by initialising the CustomRoot class.
+I will quickly test that by changing the argument that `shape()` takes.
+```python
+# line: 120
+root.shape("x1y2x1y1")
+```
+On execution it gave me this error:
+```
+Traceback (most recent call last):
+  File "CustomRoot.py", line 120, in <module>
+    root.shape("x1y2x1y1")
+TypeError: shape() missing 1 required positional argument: 'startpoint'
+```
+That means that the function shape takes two arguments.
+I will quickly repeat what I did but with the startpoint coordinates, `(900,500)` added.
+
+# License
+This repository is licensed under the MIT License so you can do almost everything what you want with it.
+
+See [LICENSE](https://github.com/toorusr/customwindow/tree/master/LICENSE).
