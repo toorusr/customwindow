@@ -51,7 +51,7 @@ class CustomRoot:
         self.create_winxel(1920, 700, "blue")
 
     def curoWIndow(self):
-        psco = "x1" # "x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1"
+        psco = "x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1-x50-y1-xm50-y1"
         print(psco)
         self.shape(psco, (900, 500))
 
@@ -118,5 +118,4 @@ class CustomRoot:
 
 root = CustomRoot()
 root.shape("y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50-y50-x1-ym50", (900, 500))
-root.curoWIndow()
 root.root.mainloop()
