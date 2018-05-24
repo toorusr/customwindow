@@ -28,7 +28,7 @@ Nevertheless it doesn't work properly I want to explain how the script `CustomRo
 ##### Do something with it
 Now here are two options
 1. Figure it out by your self
-2. Follow my constructions
+2. Follow my figuring out
 
 ```python
 if persons_selection == 1:
@@ -45,7 +45,7 @@ The class `CustomRoot` is pretty much the heart of the script and creates the Cu
 Well, okay, to this point you should have kept up with me.
 Now we will figure out together, because I don't actually remember at this point how the script works, how we can get something like a window out of this.
 
-To do so we have my beautiful code and some comments. *Okay, I just have realised that I have not written any comments.*
+To do so we have my beautiful code and some comments. *Okay, I just have realised that I have not written any usefull comments.*
 
 At first to start the script we open up a terminal and type
 ```bash
